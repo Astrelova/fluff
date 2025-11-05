@@ -341,14 +341,7 @@ legend {
     font-weight: normal;
 }
 
-
 @media screen and (min-width: 768px) {
-    body {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 0 20px;
-    }
-    
     header {
         position: sticky;
         top: 0;
@@ -360,6 +353,9 @@ legend {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
     }
     
     .logo {
@@ -402,6 +398,8 @@ legend {
         box-shadow: 0 1px 3px rgba(0,0,0,0.1);
         margin-bottom: 2rem;
         gap: 3rem;
+        max-width: 1200px;
+        margin: 0 auto;
     }
     
     #links-section {
@@ -444,7 +442,6 @@ legend {
     }
 }
 
-
 @media screen and (min-width: 1024px) {
     header {
         padding: 1.5rem 0;
@@ -471,12 +468,11 @@ legend {
 }
 
 @media screen and (min-width: 1200px) {
-    body {
+    .header-content {
         padding: 0;
     }
     
-    header, main, footer {
-        padding-left: 20px;
-        padding-right: 20px;
+    main {
+        padding: 2.5rem 0;
     }
 }
