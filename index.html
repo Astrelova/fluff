@@ -189,8 +189,8 @@
                 </fieldset>
                 
                 <div class="form-group">
-                    <label for="languages">Любимый язык программирования:</label>
-                    <select id="languages" name="languages" multiple size="5" required>
+                    <label for="languages">Любимые языки программирования:</label>
+                    <select id="languages" name="languages[]" multiple size="5" required>
                         <option value="pascal">Pascal</option>
                         <option value="c">C</option>
                         <option value="cpp">C++</option>
@@ -203,6 +203,9 @@
                         <option value="prolog">Prolog</option>
                         <option value="scala">Scala</option>
                     </select>
+                    <div style="font-size: 0.9rem; color: #666; margin-top: 0.5rem;">
+                        Для выбора нескольких языков удерживайте Ctrl (или Cmd на Mac)
+                    </div>
                 </div>
                 
                 <div class="form-group">
@@ -226,5 +229,4 @@
         <p>© Anna Buival 2025</p>
     </footer>
 </body>
-
 </html>
