@@ -31,7 +31,7 @@
                 <li><a href="/about">Внутренняя страница</a></li>
                 <li><a href="/">Главная</a></li>
                 <li><a href="#form-section">Ссылка на сегмент текущей страницы (Переход к форме)</a></li>
-                <li><a href="https://example.com/search?name=ivan&amp;age=20&amp;city=krasnodar">Ссылка с 3 параметрами</a></li>
+                <li><a href="https://example.com/search?name=ivan&age=20&city=krasnodar">Ссылка с 3 параметрами</a></li>
                 <li><a href="https://example.com/page?id=123">Ссылка с id</a></li>
                 <li><a href="page.html">Страница в текущем каталоге</a></li>
                 <li><a href="about/page.html">Относительная ссылка на страницу в каталоге about</a></li>
@@ -40,7 +40,7 @@
                 <li>
                     <p>Тут текст, а внутри <a href="https://kubsu.ru/">контекстная ссылка</a>.</p>
                 </li>
-                <li><a href="https://kubsu.ru/news">Ссылка на фрагмент</a></li>
+                <li><a href="https://kubsu.ru/ru/employees#block-block-24">Ссылка на фрагмент стороннего сайта</a></li>
                 <li>
                     <img src="Images/image.jpg" alt="Карта-изображение с ссылками" width="224" height="168" usemap="#my-map">
                     <map name="my-map">
@@ -50,9 +50,12 @@
                 </li>
                 <li><a href="">Ссылка с пустым href</a></li>
                 <li><a>ссылка без href</a></li>
-                <li><a href="https://example.com" rel="nofollow">Запрещено для перехода поисковикам</a></li>
-                <li><a href="https://example.com" rel="nofollow">Запрещено для индексации</a></li>
-                <li>
+               <li><a href="https://example.com" rel="nofollow">Запрещено для перехода поисковикам</a></li>
+<li>
+    <noindex>
+        <a href="https://example.com">Запрещено для индексации</a>
+    </noindex>
+</li>
                     <span>Нумерованный список ссылок:</span>
                     <ol>
                         <li><a href="https://kubsu.ru/" title="Главная КубГУ">КубГу</a></li>
@@ -230,3 +233,4 @@
     </footer>
 </body>
 </html>
+
